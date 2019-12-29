@@ -6,8 +6,14 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
+        android:id="@+id/nav_cat"
+        android:name="greenit.home.ui.cat.CatFragment"
+        android:label="@string/menu_cat"
+        tools:layout="@layout/cat_fragment" />
+
+    <fragment
         android:id="@+id/nav_home"
         android:name="greenit.home.ui.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/home_fragment" />
 </navigation>
